@@ -1,0 +1,15 @@
+{
+    "window.zoomLevel": 1,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "explorer.confirmDragAndDrop": false,
+    "prettier.printWidth": 200,
+    "prettier.bracketSpacing": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    }
+}

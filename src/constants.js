@@ -1,35 +1,46 @@
-export const NEWS_DATA_LIST = [{
-        imgSrc: 'https://picsum.photos/id/1/1200/1000',
-        title: '國際新聞',
-        newsList: [{
-                url: 'https://tw.appledaily.com/international/20201023/UEQJKAIU4FDIZDWWM2TRSOPNJA/',
-                postTitle: '美國大選｜民主黨支持者近80%有壓力　擔心大熱倒灶重演'
-            },
-            {
-                url: 'https://www.worldjournal.com/wj/story/121468/4957917',
-                postTitle: '終辯民調出爐！CNN：白登獲5成3支持 勝川普'
-            }
-        ]
-    },
-    {
-        imgSrc: 'https://picsum.photos/id/10/1200/1000',
-        title: '今日股市',
-        newsList: [{
-            url: 'https://tw.stock.yahoo.com/news/%E8%98%8B%E6%A6%82%E8%82%A1%E4%B8%8D%E7%B5%A6%E5%8A%9B-%E5%8F%B0%E8%82%A1%E9%96%8B%E9%AB%98%E8%B5%B0%E4%BD%8E%E8%B7%8C18%E9%BB%9E%E6%94%B612898%E9%BB%9E-%E5%91%A8%E7%B7%9A%E4%BB%8D%E6%94%B6%E7%B4%85-053933268.html',
-            postTitle: '蘋概股不給力 台股開高走低跌18點收12898點 周線仍收紅'
-        }]
-    },
-    {
-        imgSrc: 'https://picsum.photos/id/1001/1200/1000',
-        title: '今日星座運勢',
-        newsList: [{
-                url: 'https://www.worldjournal.com/wj/story/121268/4954700?from=wj_catebreaknews',
-                postTitle: '10月23日星座運勢 雙子正財運良好 獅子事業運低沉'
-            },
-            {
-                url: 'https://www.worldjournal.com/wj/story/121268/4947032?from=wj_catelistnews',
-                postTitle: '10月22日星座運勢 處女學習熱情高 雙魚辦事效率好'
-            }
-        ]
-    }
+import jewelry01 from 'assets/jewelry01.jpg'
+import jewelry02 from 'assets/jewelry02.jpg'
+import jewelry03 from 'assets/jewelry03.jpg'
+import jewelry04 from 'assets/jewelry04.jpg'
+import jewelry05 from 'assets/jewelry05.jpg'
+import jewelry06 from 'assets/jewelry06.jpg'
+export const JEWELRY_DATA_LIST = [
+  {
+    imgSrc: jewelry01,
+    title: '珍珠和兔子的耳環／復古 單耳',
+    desc:
+      '可愛的耳環讓您發笑。\r\n使用8毫米淡水珍珠，它具有成熟可愛的氛圍。\r\n矽膠耳環和淡水珍珠是簡單的耳環，可用於婚禮和派對。\r\n零件使用鈦。\r\n還可以提供銀色帖子。如果需要，請填寫備註欄。\r\n在一個可愛的naturama郵袋中。',
+    price: 1800
+  },
+  {
+    imgSrc: jewelry02,
+    title: '雨雲＆藍寶石不對稱耳環',
+    desc: '從傘＆雲的可愛造型中下雨的耳環。 \r\n雨滴使用寶石質漸層藍寶石，呈現出時尚的風格\r\n帶有玩心又獨特的耳環。',
+    price: 2000
+  },
+  {
+    imgSrc: jewelry03,
+    title: '金色小花＆紫色玻璃石直針式耳針',
+    desc:
+      '[現代珠寶收藏]桂冠桃金香檳淚珠玻璃耳環\r\n這裡將成為現代珠寶系列的耳環。\r\n令人驚嘆的紫色紫色玻璃珠寶和黃金花後耳環。閃閃發光的玻璃的珠寶層面的，黃金陷害。花是磨砂鍍金過黃銅純銀耳帖子說是偉大的敏感的皮膚。這些耳環是完美的浪漫之夜。或金色和紫色主題婚禮',
+    price: 700
+  },
+  {
+    imgSrc: jewelry04,
+    title: '染井吉野櫻花球垂墜耳環r⭐︎耳環/耳針/樹脂(一對)',
+    desc: '暖暖春天到來 ε٩(๑> ₃ <)۶з\r\n櫻花花球染井吉野登場！！\r\n金屬材料都使用玫瑰金',
+    price: 900
+  },
+  {
+    imgSrc: jewelry05,
+    title: '鳥禽捕抓的紫水晶耳針',
+    desc: '用美麗的石頭吸引的鳥的圖像製成的耳環抓住石頭。\r\n為了表達自然的原意，有意不規則地剃掉了石頭\r\n沒有一件事情是一件。\r\n貝殼狀珍珠吊墜質量好，可以用作正面。',
+    price: 1100
+  },
+  {
+    imgSrc: jewelry06,
+    title: '圈形耳環，“永遠愛你”',
+    desc: '“永遠愛你”，用語尷尬……一個名叫\r\n的女人的所有人都在隨便相愛的人面前....\r\n為什麼不嘗試傳達您的愛意....',
+    price: 1250
+  }
 ]
