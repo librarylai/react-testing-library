@@ -53,7 +53,7 @@ function AccessoryPageContainer(props) {
   function renderJewelryList() {
     return JEWELRY_DATA_LIST.map((item, index) => {
       return (
-        <JewelryItemWrapper key={index}>
+        <JewelryItemWrapper key={index} data-testid='jewelryItem'>
           <img src={item.imgSrc} />
           <JewelryInfo>{item.title}</JewelryInfo>
           <JewelryInfo>{item.desc}</JewelryInfo>
@@ -67,7 +67,7 @@ function AccessoryPageContainer(props) {
   }
   return (
     <PageContainer>
-      <ListWrapper>{renderJewelryList()}</ListWrapper>
+      <ListWrapper data-testid='listWrapper'>{renderJewelryList()}</ListWrapper>
     </PageContainer>
   )
 }
